@@ -1,0 +1,159 @@
+/*
+Theme Name: Medical Consulting
+Theme URI: https://keonthemes.com/downloads/medical-consulting/
+Author: Keon Themes
+Author URI: https://keonthemes.com/
+Description: Medical Consulting is a beautiful and elegant blue and green color schemed child theme of Business Consultr. Theme Demo: https://keonthemes.com/theme-demo/?id=MjA0NXxlZHVjYXRpb24tY29uc3VsdHJ8RWR1Y2F0aW9uIENvbnN1bHRy
+Version: 1.0.1
+Requires PHP: 5.5
+Tested up to: 5.4.2
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: business-consultr
+Text Domain: medical-consulting
+Tags: blog, portfolio, education, grid-Layout, two-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Medical Consulting WordPress Theme is child theme of Business Consultr, Copyright 2020 Keon Themes
+Medical Consulting is distributed under the terms of the GNU General Public License v3
+*/
+
+/*======================================*/
+/* Primary color */
+/*======================================*/
+
+/*======================================*/
+/* Background Primary color */
+/*======================================*/
+body .top-header,
+body .icon-block-outer:hover,
+body .icon-block-outer:focus,
+body .icon-block-outer:active,
+body #go-top span:hover,
+body #go-top span:focus,
+body #go-top span:active,
+body .page-numbers.current,
+body .sub-title:before,
+body .searchform .search-button {
+	background-color: #007d9e;
+}
+
+/*======================================*/
+/* Primary border color */
+/*======================================*/
+body .top-header,
+body .block-portfolio.block-grid .post-content:hover .post-content-inner,
+body .block-portfolio.block-grid .post-content:focus .post-content-inner,
+body .block-portfolio.block-grid .post-content:active .post-content-inner,
+body #go-top span:hover, body #go-top span:focus,
+body #go-top span:active,
+body .main-navigation ul ul,
+body .page-numbers.current,
+body .searchform .search-button {
+	border-color: #007d9e;
+}
+
+/*======================================*/
+/* Primary text color */
+/*======================================*/
+
+body .icon-block-outer .icon-outer span,
+body .icon-block-outer .icon-content-area .button-container .button-text,
+body .icon-block-outer .icon-content-area .button-container .button-text:before,
+body .block-testimonial .slide-item article.post-content .post-content-inner .post-title cite span  {
+	color: #007d9e;
+}
+
+body .block-top-footer, body .site-footer {
+    background-color: #0b2127;
+}
+
+body .block-top-footer strong {
+    color: #b9b9b9;
+}
+
+body .top-header .top-header-left .list span {
+    color: #5cb6ce;
+}
+
+body .top-header .top-header-left .list a:hover,
+body .top-header .top-header-left .list a:focus,
+body .top-header .top-header-left .list a:active,
+body .top-header .top-header-right .socialgroup a:hover,
+body .top-header .top-header-right .socialgroup a:focus,
+body .top-header .top-header-right .socialgroup a:active,
+body .top-header .top-header-right .search-icon a:hover,
+body .top-header .top-header-right .search-icon a:focus,
+body .top-header .top-header-right .search-icon a:active,
+body .top-header .top-header-right .cart-icon a:hover,
+body .top-header .top-header-right .cart-icon a:focus,
+body .top-header .top-header-right .cart-icon a:active {
+	color: #88d4e8;
+}
+
+body .top-header .top-header-right .search-icon,
+.top-header .top-header-right .cart-icon {
+	border-left-color: rgba(255,255,255,0.4);
+}
+
+body .block-top-footer .widget ul li,
+body .block-top-footer .widget ol li {
+    border-color: rgba(255,255,255,0.15);
+}
+
+body .top-header .top-header-right .cart-icon a .count {
+    background-color: #5cb6ce;
+}
+
+body .block-service .icon-block-outer {
+	border-top: 3px solid #007d9e;
+}
+
+/*======================================*/
+/* Secondary color */
+/*======================================*/
+
+/*======================================*/
+/* Secondary background color */
+/*======================================*/
+body .button-primary,
+body .block-contact .contact-form-section input[type="submit"],
+body .block-contact .kt-contact-form-area .form-group input.form-control[type="submit"],
+body .wrap-detail-page .contact-form-section input[type="submit"],
+body .wrap-detail-page .kt-contact-form-area .form-group input.form-control[type="submit"],
+body .block-grid .post-content .post-content-inner span.cat a,
+body .block-grid .post-content .post-content-inner .button-container .post-footer-detail .post-format-outer > span a,
+body .block-grid .post-content .post-content-inner .button-container .post-footer-detail .post-format-outer > span span,
+body .comments-area .comment-respond .comment-form .submit {
+	background-color: #7ace4c;
+}
+
+/*======================================*/
+/* Secondary border color */
+/*======================================*/
+body .button-primary,
+body .block-contact .contact-form-section input[type="submit"],
+body .wrap-detail-page .contact-form-section input[type="submit"],
+body .wrap-detail-page .kt-contact-form-area .form-group input.form-control[type="submit"],
+body .block-contact .kt-contact-form-area .form-group input.form-control[type="submit"],
+body .comments-area .comment-respond .comment-form .submit,
+body .block-contact .kt-contact-form-area .form-group input.form-control:focus,
+body .block-contact .kt-contact-form-area .form-group input.form-control:active,
+body .block-contact .kt-contact-form-area .form-group textarea.form-control:focus,
+body .block-contact .kt-contact-form-area .form-group textarea.form-control:active,
+body .wrap-detail-page .kt-contact-form-area .form-group input.form-control:focus,
+body .wrap-detail-page .kt-contact-form-area .form-group input.form-control:active,
+body .wrap-detail-page .kt-contact-form-area .form-group textarea.form-control:focus,
+body .wrap-detail-page .kt-contact-form-area .form-group textarea.form-control:active {
+	border-color: #7ace4c;
+}
+
+/*======================================*/
+/* Alternate color */
+/*======================================*/
+
+/*======================================*/
+/* Alternate border color */
+/*======================================*/
+body .block-portfolio.block-grid .post-content .post-content-inner {
+	border-color: #7ace4c;
+}
